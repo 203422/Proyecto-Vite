@@ -1,0 +1,32 @@
+main {
+    width: 100%;
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 55%;
+}
+
+.contenedor-main {
+    max-width: 120rem;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100vh;
+    color: #ffffff; 
+    padding: 12rem 0 2rem 0;
+}
+
+h1 {
+    align-self: flex-start;
+    margin: 0;
+    font-size: 8rem;
+}
+
+.informacion {
+    align-self: flex-end;
+    font-weight: 700;
+    font-size: 2rem;
+}
